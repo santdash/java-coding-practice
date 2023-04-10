@@ -1,4 +1,4 @@
-package com.jdrd.array.sorting;
+package com.jdrd.array.datastructure.sorting;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.jdrd.array.sorting;
+package com.jdrd.array.datastructure.sorting;
 
 import java.util.function.BiFunction;
 
@@ -17,7 +17,7 @@ public class BubbleSort {
         sort(input, ( a, b ) -> a < b);
     }
 
-    private static void sort(int[] input, BiFunction<Integer, Integer, Boolean> function) {
+    private static void sort(int[] input, BiFunction<Integer, Integer, Boolean> compareOp) {
         int n = input.length;
         while (n > 0) {
             /* Every iteration would move the largest/smallest element to the end, so the n-- is for reducing number
@@ -25,7 +25,7 @@ public class BubbleSort {
             n--;
             boolean swapped = false;
             for (int i = 0; i < n; i++) {
-                if (function.apply(input[i], input[i + 1])) {
+                if (compareOp.apply(input[i], input[i + 1])) {
                     int temp = input[i];
                     input[i] = input[i + 1];
                     input[i + 1] = temp;
