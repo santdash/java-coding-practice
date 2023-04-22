@@ -50,3 +50,24 @@ Doubly-linked list implementation of the List and Deque interfaces. Implements a
 all elements (including null).
 All the operations perform as could be expected for a doubly-linked list. Operations that index into the list will 
 traverse the list from the beginning or the end, whichever is closer to the specified index.
+
+### PriorityQueue (Queue Implementation)
+
+An unbounded priority queue based on a priority heap. The elements of the priority queue are ordered according to their 
+natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used. A 
+priority queue does not permit null elements. A priority queue relying on natural ordering also does not permit insertion 
+of non-comparable objects (doing so may result in ClassCastException).
+
+### Deque (Extends Queue)
+A linear collection that supports element insertion and removal at both ends. The name deque is short for "double ended 
+queue" and is usually pronounced "deck". Most Deque implementations place no fixed limits on the number of elements they 
+may contain, but this interface supports capacity-restricted deques as well as those with no fixed size limit.
+
+### ArrayDeque (Implements Deque)
+Resizable-array implementation of the Deque interface. Array deques have no capacity restrictions; they grow as necessary to support usage. They are not thread-safe; in the absence of external synchronization, they do not support concurrent access by multiple threads. Null elements are prohibited. This class is likely to be faster than Stack when used as a stack, and faster than LinkedList when used as a queue.
+
+
+### LinkedList (Implements Both Deque and List)
+A linear collection that supports element insertion and removal at both ends. The name deque is short for "double ended 
+queue" and is usually pronounced "deck". Most Deque implementations place no fixed limits on the number of elements they 
+may contain, but this interface supports capacity-restricted deques as well as those with no fixed size limit.
