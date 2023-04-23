@@ -71,3 +71,29 @@ Resizable-array implementation of the Deque interface. Array deques have no capa
 A linear collection that supports element insertion and removal at both ends. The name deque is short for "double ended 
 queue" and is usually pronounced "deck". Most Deque implementations place no fixed limits on the number of elements they 
 may contain, but this interface supports capacity-restricted deques as well as those with no fixed size limit.
+
+### Set implementations (HashSet, LinkedHashSet, TreeSet)
+
+#### 1. HashSet
+It can contain only unique elements. Nulls are allowed. Insertion order is not preserved. Uses **Hashing** mechanism to
+store objects.
+
+#### 2. LinkedHashSet
+Similar to HashSet but insertion order is preserved.
+
+#### 3. TreeSet ( Implements SortedSet and NavigableSet as-well)
+
+##### SortedSet (Interface)
+The elements are ordered using their natural ordering, or by a Comparator typically provided at sorted set creation time.
+The set's iterator will traverse the set in ascending element order.
+Methods: **first, last, headSet, tailSet, subSet**
+
+##### NavigableSet (Interface)
+
+A SortedSet extended with navigation methods reporting the closest matches for given search targets. Methods **lower, floor, ceiling, and higher**
+return elements respectively less than, less than or equal, greater than or equal, and greater than a given element, returning null if there is no such element. 
+A NavigableSet may be accessed and traversed in either ascending or descending order. The **descendingSet** method returns 
+a view of the set with the senses of all relational and directional methods inverted. The performance of ascending operations 
+and views is likely to be faster than that of descending ones. This interface additionally defines methods **pollFirst** 
+and **pollLast** that return and remove the lowest and highest element, if one exists, else returning null. 
+Methods **subSet, headSet, and tailSet** differ from the like-named SortedSet methods in accepting additional arguments describing whether lower and upper bounds are inclusive versus exclusive.
