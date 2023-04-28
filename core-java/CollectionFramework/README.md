@@ -97,3 +97,10 @@ a view of the set with the senses of all relational and directional methods inve
 and views is likely to be faster than that of descending ones. This interface additionally defines methods **pollFirst** 
 and **pollLast** that return and remove the lowest and highest element, if one exists, else returning null. 
 Methods **subSet, headSet, and tailSet** differ from the like-named SortedSet methods in accepting additional arguments describing whether lower and upper bounds are inclusive versus exclusive.
+
+#### Special Mention EnumSet
+A specialized Set implementation for use with enum types. All of the elements in an enum set must come from a single enum 
+type that is specified, explicitly or implicitly, when the set is created. Enum sets are represented internally as bit 
+vectors. This representation is extremely compact and efficient. The space and time performance of this class should be 
+good enough to allow its use as a high-quality, typesafe alternative to traditional int-based "bit flags." Even bulk 
+operations (such as containsAll and retainAll) should run very quickly if their argument is also an enum set.
