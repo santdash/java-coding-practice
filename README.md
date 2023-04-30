@@ -1,6 +1,5 @@
 # Java Coding Practice
 
-**Why Random Dose?**
 
 Working and Learning are different. Though you might work on the complex Java projects without any issues,
 it often happens that core concepts are forgotten. Projects create Frameworks and as developer
@@ -17,8 +16,3 @@ of the same.
 
 Some organizations use algorithms extensively, but most of the cases, developers not developing
 algorithms tends to forget them. Algorithms are a great way for developing better coding skills.
-
-Random is because think about a Java concept which is well known. 
-But can't recall how it's done! It's time to learn only that and refresh the memory.
-
-Daily is because code something (other than monotonous office work) daily to jog the memory.
