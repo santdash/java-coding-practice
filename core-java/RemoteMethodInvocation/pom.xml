@@ -5,18 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.jcp</groupId>
-        <artifactId>java-coding-practice</artifactId>
+        <artifactId>core-java</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>core-java</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>InterThredCommunication</module>
-        <module>CollectionFramework</module>
-        <module>RemoteMethodInvocation</module>
-    </modules>
-
+    <artifactId>RemoteMethodInvocation</artifactId>
 
 
 </project>
