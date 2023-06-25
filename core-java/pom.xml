@@ -12,7 +12,7 @@
     <artifactId>core-java</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>InterThredCommunication</module>
+        <module>Concurrency</module>
         <module>CollectionFramework</module>
         <module>RemoteMethodInvocation</module>
     </modules>

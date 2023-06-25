@@ -1,4 +1,4 @@
-package com.jcp.intcommn;
+package com.jcp.interthreadcommunication;
 
 public class WaitNNotify {
 

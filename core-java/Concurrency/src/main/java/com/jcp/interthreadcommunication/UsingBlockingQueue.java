@@ -1,4 +1,4 @@
-package com.jcp.intcommn;
+package com.jcp.interthreadcommunication;
 
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
