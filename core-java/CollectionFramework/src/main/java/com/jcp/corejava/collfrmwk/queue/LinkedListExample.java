@@ -34,6 +34,7 @@ public class LinkedListExample {
         System.out.println("deque.pollLast(): " +deque.pollLast());
         System.out.println("deque.poll(): " +deque.poll());
         System.out.println("deque.pop(): " + deque.pop());
+        System.out.println("deque.removeFirst(): " + deque.removeFirst());
 
 
         System.out.println(deque);
